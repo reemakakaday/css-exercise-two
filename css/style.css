@@ -1,6 +1,15 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #353535;
+  text-align: left;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  a:hover { color:#ff2800; } /* mouse over */
 }
 
 nav {
@@ -11,15 +20,18 @@ nav {
 }
 
 .logo {
+  background: url (~/github/css-exercise-two/images/bloc-logo.png)
   margin: 20px;
   width: 100px;
 }
 
 .large-pic {
+  background: url (~/github/css-exercise-two/images/instagram-pic.jpg)
   width: 100%;
 }
 
 .medium-pic {
+  background: url (~/github/css-exercise-two/images/instagram-pic.jpg)
   width: 70%;
 }
 

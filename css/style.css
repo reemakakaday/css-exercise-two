@@ -1,9 +1,9 @@
 body {
   font-size: 16px;
+  font-family:sans-serif;
   background-color: #ffffff;
   color: #353535;
   text-align: left;
-  text-transform: capitalize;
   line-height: 1.2;
 }
 
@@ -12,6 +12,28 @@ a {
   a:hover { color:#ff2800; } /* mouse over */
 }
 
+h1 {
+  font-size: 1.5em;
+  text-align: left;
+  padding-top: 1.3em;
+  padding-bottom: .7em;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: italic;
+}
+p {
+  font-size: 1em;
+  padding-top: 1.5em;
+  line-height: 1.5;
+}
+
+.author {
+  font-weight: 600;
+}
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
@@ -19,19 +41,27 @@ nav {
   width: 100%;
 }
 
+figure {
+  font-size:1em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  font-style: italic;
+}
+
+article {
+  padding-bottom: 5em;
+}
+
 .logo {
-  background: url (~/github/css-exercise-two/images/bloc-logo.png)
   margin: 20px;
   width: 100px;
 }
 
 .large-pic {
-  background: url (~/github/css-exercise-two/images/instagram-pic.jpg)
   width: 100%;
 }
 
 .medium-pic {
-  background: url (~/github/css-exercise-two/images/instagram-pic.jpg)
   width: 70%;
 }
 
@@ -52,6 +82,10 @@ ul {
 li {
   float: right;
   padding: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: white;
 }
 
 article {
